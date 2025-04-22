@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://scontent.fmnl17-2.fna.fbcdn.net/v/t39.30808-6/480785570_556000940801074_2294344429084287578_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzQolwyaDlStJu0t49Zz2KTT270hEWzUVNPbvSERbNRQOZ0RpaZLO4JtqSp0RZTlp89GLJ11EYkkLLW1PGdLj4&_nc_ohc=KEH73EORhDcQ7kNvgFOBYuJ&_nc_oc=AdhYm2jRZaV1QvykqFN2NtoTqoPqip2-J3-V5oiJ37oQEMe1n2alNSy_jNdpD_31pBI&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&_nc_gid=ASrdkyu0q6MDDLGrv21N0V3&oh=00_AYBijbNtCh9BjEcSMg8fThxhajpXaUvNsZGtRhJfr_TIaw&oe=67CDA27C') no-repeat center center fixed;
+    background-size: cover;
+}
+/* Form Container */
+.form-container {
+    width: 350px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Heading */
+.form-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input Focus */
+input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4a90e2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+button:hover {
+    background: #357ABD;
+}
+
+/* Links */
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #357ABD;
+    text-decoration: underline;
+}
+
+/* Error Messages */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+

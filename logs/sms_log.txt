@@ -1,0 +1,18 @@
+[2025-03-04 09:12:18] TO: +639544457004 | MESSAGE: Payment confirmed. Booking successful! Court: Court B, Time: 2025-03-04 19:37:00 - 2025-03-04 20:37:00. Thank you!
+[2025-03-04 09:13:23] TO: +639544457004 | MESSAGE: Payment confirmed. Booking successful! Court: Court A, Time: 2025-03-04 21:13:00 - 2025-03-04 22:13:00. Thank you!
+[2025-03-04 09:14:26] TO: +639201661097 | MESSAGE: Payment confirmed. Booking successful! Court: Court A, Time: 2025-03-04 22:14:00 - 2025-03-04 23:14:00. Thank you!
+[2025-03-04 09:19:40] ATTEMPT TO: +639201661097 | MESSAGE: Payment confirmed. Booking successful! Court: Court B, Time: 2025-03-04 22:19:00 - 2025-03-04 23:19:00. Thank you!
+[2025-03-04 09:19:40] ERROR TO: +639201661097 | ERROR: [HTTP 400] Unable to create record: The number +63920166XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +63920166XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+[2025-03-04 09:19:40] FALLBACK TO: +639201661097 | Simulating success for unverified number
+[2025-03-04 09:35:29] ATTEMPT TO: 09201661097 | MESSAGE: Payment confirmed. Booking successful! Court: Court B, Time: 2025-03-04 22:19:00 - 2025-03-04 23:19:00. Thank you!
+[2025-03-04 09:35:29] RESPONSE CODE: 401, RESPONSE: 
+[2025-03-04 09:36:01] ATTEMPT TO: 09201661097 | MESSAGE: Payment confirmed. Booking successful! Court: Court B, Time: 2025-03-04 22:19:00 - 2025-03-04 23:19:00. Thank you!
+[2025-03-04 09:36:01] RESPONSE CODE: 401, RESPONSE: 
+[2025-03-04 09:37:23] ATTEMPT TO: 09207632750 | MESSAGE: Payment confirmed. Booking successful! Court: Court A, Time: 2025-03-04 12:36:00 - 2025-03-04 12:46:00. Thank you!
+[2025-03-04 09:37:23] RESPONSE CODE: 401, RESPONSE: 
+[2025-03-04 09:39:40] ATTEMPT TO: 09207632750 | MESSAGE: Payment confirmed. Booking successful! Court: Court A, Time: 2025-03-04 12:36:00 - 2025-03-04 12:46:00. Thank you!
+[2025-03-04 09:39:40] RESPONSE CODE: 401, RESPONSE: 
+[2025-03-04 09:41:44] ATTEMPT TO: 09544457004 | MESSAGE: Payment confirmed. Booking successful! Court: Court A, Time: 2025-03-04 17:40:00 - 2025-03-04 18:40:00. Thank you!
+[2025-03-04 09:41:44] RESPONSE CODE: 401, RESPONSE: 
+[2025-03-04 09:41:46] ATTEMPT TO: 09207632750 | MESSAGE: Payment confirmed. Booking successful! Court: Court B, Time: 2025-03-04 17:41:00 - 2025-03-04 18:41:00. Thank you!
+[2025-03-04 09:41:46] RESPONSE CODE: 401, RESPONSE: 

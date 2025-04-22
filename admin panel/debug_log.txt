@@ -1,0 +1,81 @@
+Array
+(
+    [current_password] => admin123
+    [new_username] => Cafe Fifty
+    [new_password] => sportscenter
+    [confirm_password] => sportscenter
+)
+Received data: current_password=admin123, new_username=Cafe Fifty, new_password=sportscenter
+Error: Admin ID not set in session
+Array
+(
+    [current_password] => admin123
+    [new_username] => Cafe Fifty
+    [new_password] => Sportscenter
+    [confirm_password] => Sportscenter
+)
+Received data: current_password=admin123, new_username=Cafe Fifty, new_password=Sportscenter
+Error: Admin ID not set in session
+Array
+(
+    [current_password] => admin123
+    [new_username] => Cafe Fifty
+    [new_password] => Sportscenter
+    [confirm_password] => Sportscenter
+)
+Received data: current_password=admin123, new_username=Cafe Fifty, new_password=Sportscenter
+Current password is incorrect
+Array
+(
+    [current_password] => admin123
+    [new_username] => asd
+    [new_password] => asd
+    [confirm_password] => asd
+)
+Received data: current_password=admin123, new_username=asd, new_password=asd
+Current password is incorrect
+Array
+(
+    [current_password] => asd
+    [new_username] => asd
+    [new_password] => asd
+    [confirm_password] => asd
+)
+Received data: current_password=asd, new_username=asd, new_password=asd
+Current password is incorrect
+Array
+(
+    [current_password] => admin123
+    [new_username] => Cafe Fifty
+    [new_password] => 123
+    [confirm_password] => 123
+)
+Received data: current_password=admin123, new_username=Cafe Fifty, new_password=123
+Credentials updated successfully
+Array
+(
+    [current_password] => 123
+    [new_username] => Cafe Fifty
+    [new_password] => admin123
+    [confirm_password] => admin123
+)
+Received data: current_password=123, new_username=Cafe Fifty, new_password=admin123
+Credentials updated successfully
+Array
+(
+    [current_password] => admin123
+    [new_username] => admin
+    [new_password] => admin123
+    [confirm_password] => admin123
+)
+Received data: current_password=admin123, new_username=admin, new_password=admin123
+Credentials updated successfully
+Array
+(
+    [current_password] => admin123
+    [new_username] => admin
+    [new_password] => admin123
+    [confirm_password] => admin123
+)
+Received data: current_password=admin123, new_username=admin, new_password=admin123
+Credentials updated successfully
